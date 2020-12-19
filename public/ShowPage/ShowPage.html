@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="utf-8" content="width=device-width, initial-scale=1.0">
+        <title>Flow Chat 視聴画面</title>
+        <!-- The core Firebase JS SDK is always required and must be listed first -->
+        <script src="https://www.gstatic.com/firebasejs/7.19.1/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/7.19.1/firebase-auth.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/7.19.1/firebase-database.js"></script>
+
+        <!-- TODO: Add SDKs for Firebase products that you want to use
+            https://firebase.google.com/docs/web/setup#available-libraries -->
+        <script src="https://www.gstatic.com/firebasejs/7.19.1/firebase-analytics.js"></script>
+
+        <script>
+        // Your web app's Firebase configuration
+        var firebaseConfig = {
+            apiKey: "AIzaSyDGM0jswwgOmKTBCuKgD4R0cxwO37RPbgM",
+            authDomain: "flowchat-7d30c.firebaseapp.com",
+            databaseURL: "https://flowchat-7d30c.firebaseio.com",
+            projectId: "flowchat-7d30c",
+            storageBucket: "flowchat-7d30c.appspot.com",
+            messagingSenderId: "836020287851",
+            appId: "1:836020287851:web:fde973dd45cd397dbd342e",
+            measurementId: "G-RL1VC22PWE"
+        };
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+        firebase.analytics();
+        </script>
+
+        <link rel="stylesheet" href="./show.css">
+        <link rel="icon" type="image/x-icon" href="../images/showIcon.ico">
+    </head>
+    <body>
+        <script src="show.js"></script>
+    </body>
+</html>
