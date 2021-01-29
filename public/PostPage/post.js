@@ -4,6 +4,8 @@ const td = new Date();
 const today = ""+td.getFullYear() +"_"+ (td.getMonth()+1)+"_" + td.getDate() + "/";
 var logInUser = "none";
 
+
+//以下でログイン処理を行う，学生の手間を省くため自動でログインするようになっている．
 window.onload = function(){
   firebase.auth().getRedirectResult().then(function(result) {
     logInUser = result.user;

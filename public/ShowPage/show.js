@@ -1,4 +1,7 @@
-//ウェブページを起動したときの時間を記録
+/*
+ウェブページを起動したときの時間を記録，
+これにより起動以前のコメントが流れないようにする．
+*/
 var date = new Date();
 var launchTime = date.getTime();
 var database = firebase.database();
@@ -6,6 +9,7 @@ var database = firebase.database();
 const td = new Date();
 const today = ""+td.getFullYear() +"_"+ (td.getMonth()+1)+"_" + td.getDate() + "/";
 
+//動的に要素を追加するための準備
 var div = document.createElement("div");
 
 div.className = "marquee";
@@ -17,7 +21,7 @@ commentLog.id = "commentLog";
 var table = document.createElement( 'table' );
 
 var msgArray = [];
-let cmtLimit = 30;
+let cmtLimit = 30;//表示されるコメント最大数
 
 document.body.appendChild(div);
 div.appendChild(commentLog);
@@ -47,10 +51,12 @@ function showChat(msg){
   
 
   if(msgArray.length >= cmtLimit){
-    div.removeChild(div.children[2]);//これがバグの原因
+    //表示バグの回避用
+    div.removeChild(div.children[2]);
   };
 }
 
+//表示場所をランダムにする
 function getRandomInt(min, max) {
   min = Math.ceil(min);
   max = Math.floor(max);

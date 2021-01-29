@@ -1,3 +1,7 @@
+//学外で使用したいとの要望を受けログインなしでも利用できるように作成
+//学内者用のとほぼ同じ
+
+
 var database = firebase.database();
 
 const td = new Date();
