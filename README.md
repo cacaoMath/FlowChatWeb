@@ -16,7 +16,7 @@ FlowChatのWebバージョン．
 ### コメント視聴画面
 
 <img width="400" src="https://user-images.githubusercontent.com/53263220/106355548-18313e00-633c-11eb-8e3d-612894edacf1.png">
-### コメント投稿画面  
+### コメント投稿画面   
 <img width="400" src="https://user-images.githubusercontent.com/53263220/106355553-1bc4c500-633c-11eb-8698-fc9803e7004b.png">  
 
 # ソースコード構成
