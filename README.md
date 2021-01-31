@@ -21,7 +21,6 @@ FlowChatのWebバージョン．
 
 <img width="400" src="https://user-images.githubusercontent.com/53263220/106355553-1bc4c500-633c-11eb-8698-fc9803e7004b.png">  
 
-# ソースコード構成
 
 
 
