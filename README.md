@@ -21,6 +21,9 @@ FlowChatのWebバージョン．
 
 <img width="400" src="https://user-images.githubusercontent.com/53263220/106355553-1bc4c500-633c-11eb-8698-fc9803e7004b.png">  
 
-
-
+# 動作環境  
+- OS  
+  Windows10, Android10, Android11  
+- ブラウザ  
+  Chrome, Edge, Firefox
 
