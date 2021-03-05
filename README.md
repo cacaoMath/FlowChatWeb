@@ -1,6 +1,8 @@
 # FlowChatWeb
 FlowChatのWebバージョン．  
 [FlowChat](https://flowchat-7d30c.web.app/index.html)  
+これは，自身が制作した，Chrome拡張機能↓の移植バージョンです．  
+[FlowChat for Chrome](https://github.com/cacaoMath/FlowChatForChrome)  
 コメントが流れるとこんな感じです．  
 ![Videotogif (1)](https://user-images.githubusercontent.com/53263220/106355398-e5d31100-633a-11eb-863c-8d9627ac9749.gif)
 
